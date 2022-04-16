@@ -524,6 +524,28 @@ footer span a:hover{
 }
 
 /* resume page */
+.resume {
+    font-family: 'Ubuntu', sans-serif;
+    background-color:lightgrey;
+}
+.resume .cat{
+    display: flex;
+    margin-bottom: 10px;
+}
+.resume .cat li{
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+.resume ul li.active{
+    background: crimson;
+    color: #fff;
+}
+
 #wrapper ul {
     display: flex;
     flex-wrap: wrap;
@@ -532,6 +554,7 @@ footer span a:hover{
 #wrapper ul  li {
     height: 40vh;
     flex-grow: 1;
+    margin: 5px;
   }
   
 #wrapper ul li img {
