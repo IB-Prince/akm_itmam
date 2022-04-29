@@ -23,6 +23,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+
     $('.list').click(function(){
         const value = $(this).attr('data-filter');
         if (value == 'All'){
